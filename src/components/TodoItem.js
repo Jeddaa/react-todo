@@ -1,4 +1,3 @@
-/* eslint-disable object-curly-newline */
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 import { FaTrash } from 'react-icons/fa';

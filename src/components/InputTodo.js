@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 import { FaPlusCircle } from 'react-icons/fa';
+import PropTypes from 'prop-types';
 
 const InputTodo = ({ addTodoItem }) => {
   const [title, setTitle] = useState('');
@@ -33,3 +34,4 @@ const InputTodo = ({ addTodoItem }) => {
 };
 
 export default InputTodo;
+InputTodo.propTypes = { addTodoItem: PropTypes.func.isRequired };

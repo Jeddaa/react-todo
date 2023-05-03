@@ -70,21 +70,3 @@ const TodosLogic = () => {
 };
 
 export default TodosLogic;
-
-// [
-//   {
-//     id: uuidv4(),
-//     title: 'Setup development environment',
-//     completed: true,
-//   },
-//   {
-//     id: uuidv4(),
-//     title: 'Develop website and add content',
-//     completed: false,
-//   },
-//   {
-//     id: uuidv4(),
-//     title: 'Deploy to live server',
-//     completed: false,
-//   },
-// ];
