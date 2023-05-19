@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Quicksand:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #f2f2f2;
+}
+
+nav {
+  border-bottom: solid 1px #f2f2f2;
+}
+
+.nav-ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  gap: 1em;
+  padding: 0 1em;
+}
+
+.nav-ul2 {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0.5em;
+  gap: 0.1em;
+}
+
+.contact-btn {
+  background-color: #8f5b6a;
+  color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  align-items: start;
+}
+
+.todo-header {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.todo-headerp {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.form-todo {
+  display: flex;
+  justify-content: center;
+}
+
+.form-todo-input {
+  border-radius: 12px;
+  width: 40%;
+  height: 2em;
+}
+
+.form-todo-span {
+  justify-content: center;
+  display: flex;
+  color: red;
+}
+
+.edit-icon {
+  width: 1.5em;
+  height: 2em;
+}
+
+.todo-content {
+  background: #f0efef;
+  display: flex;
+  gap: 4em;
+  align-items: center;
+  list-style: none;
+}
+
+.li-item {
+  font-size: 1rem;
+  list-style-type: none;
+  padding: 14px 25px;
+  border-bottom: 1px solid #fff;
+  background: #f0efef;
+  margin: 0 auto;
+  width: 60vw;
+}
+
+.todo-render {
+  margin: 0;
+  width: 40vw;
+}
+
+.textInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  outline: none;
+}
+
+.todo-btn {
+  background: none;
+  border: none;
+  font-size: 1.1em;
+}
+
+.del-todo-btn {
+  background: none;
+  border: none;
+  margin-left: 7px;
+  font-size: 1em;
+}
+
+.edit-todo-btn {
+  background: none;
+  border: none;
+  margin-left: 7px;
+  font-size: 1em;
+}
